@@ -1,0 +1,14 @@
+# Arquivos locais e temporários
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# Dependências/artefatos não utilizados atualmente
+node_modules/
+dist/
+
+# Configurações privadas
+.env
+.env.*
+!.env.example
