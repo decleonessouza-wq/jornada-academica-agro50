@@ -82,3 +82,27 @@ button{font:inherit} svg{max-width:100%} .wrap{width:min(1140px,calc(100% - 40px
 .campus-detail b{font-weight:750}
 .campus-detail a{display:inline-block;color:#0c6d52;font-size:12px;font-weight:800;margin-top:12px;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:700px){.institution-inner{flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:3px;min-height:37px}.institution-inner span{font-size:10px}.institution-inner strong{font-size:11px}.campus-grid{grid-template-columns:1fr;gap:18px}.campus-bridge{padding:33px 0}}
+
+
+/* Fase 03 / UX R1 — hierarquia acadêmica e agenda resumida. */
+.hero-title-prefix{display:block;font-size:.5em;line-height:1.17;letter-spacing:-.047em;font-weight:700;color:#ecfff2}
+.hero-title-name{display:block;white-space:nowrap;margin-top:5px}
+.agenda-overview{background:#fff;border-bottom:1px solid var(--line);padding:37px 0 31px}
+.agenda-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}
+.agenda-heading h2{font-size:clamp(25px,3vw,34px);letter-spacing:-.04em;line-height:1.17;margin:8px 0}
+.agenda-heading p{font-size:13px;color:var(--muted);line-height:1.55;margin:0}
+.agenda-all{font-size:13px;font-weight:800;color:#0a6a50;white-space:nowrap;text-decoration:underline;text-underline-offset:4px;padding-bottom:5px}
+.agenda-list{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px}
+.agenda-item{display:flex;flex-direction:column;align-items:start;min-width:0;gap:12px;min-height:151px;padding:17px 15px;border:1px solid #d5e7dd;border-radius:13px;background:#f6faf7;transition:background .15s,border-color .15s,transform .15s}
+.agenda-item:hover{background:#e9f6eb;border-color:#81bda2;transform:translateY(-2px)}
+.agenda-date{display:block;font-size:30px;font-weight:850;color:#0f5947;line-height:1;letter-spacing:-.05em}
+.agenda-date span{font-size:12px;letter-spacing:.08em}
+.agenda-event{display:block;font-size:13px;line-height:1.28;color:#183e37;font-weight:800}
+.agenda-time{display:block;color:#60776e;font-size:11px;line-height:1.5;margin-top:auto}
+.agenda-conflict{color:#8a521e;font-weight:750}
+.agenda-footnote{font-size:11px;color:#5d736d;line-height:1.65;margin:16px 0 0}
+.agenda-footnote a{color:#0a6953;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1000px){.agenda-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.agenda-overview{padding:32px 0 28px}.agenda-heading{display:block}.agenda-all{display:inline-block;margin-top:13px}.agenda-list{grid-template-columns:repeat(2,minmax(0,1fr))}.agenda-item{min-height:135px}}
+@media(max-width:420px){.agenda-item{padding:14px 12px;gap:10px}.agenda-date{font-size:26px}.agenda-item:last-child{grid-column:span 2}}
+@media(prefers-reduced-motion:reduce){.agenda-item{transition:none}}
