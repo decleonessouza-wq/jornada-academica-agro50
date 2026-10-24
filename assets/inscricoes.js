@@ -1,13 +1,13 @@
-/* Fase 06 / R2 — links do evento. Substitua apenas os endereços abaixo. */
+/* Fase 07.2 — links oficiais da Jornada e acessos ainda pendentes do BluePlant. */
 (() => {
   "use strict";
   const links = Object.freeze({
+    blueplantInscricao: "https://www.even3.com.br/treinamento-sistemas-supervisorios-altusblueplant-802190",
     teams04: "https://example.org/teams/blueplant-04-11",
     teams11: "https://example.org/teams/blueplant-11-11",
-    blueplantInformacoes: "https://example.org/inscricoes/blueplant-presencial",
-    minicursoNathan: "https://example.org/inscricoes/nathan",
-    minicursoAlgoritmos: "https://example.org/inscricoes/algoritmos",
-    minicursoLean: "https://example.org/inscricoes/lean",
+    minicursoNathan: "https://www.even3.com.br/jornada-agro-unisenai-798946/",
+    minicursoAlgoritmos: "https://www.even3.com.br/jornada-agro-unisenai-798946/",
+    minicursoLean: "https://www.even3.com.br/jornada-agro-unisenai-798946/",
     apostila: "https://drive.google.com/drive/folders/1hMrpIKqahc60mZe8Gt5fV3xM7sCzrTSC?usp=sharing",
     apresentacao: "https://drive.google.com/drive/folders/1hMrpIKqahc60mZe8Gt5fV3xM7sCzrTSC?usp=sharing"
   });
